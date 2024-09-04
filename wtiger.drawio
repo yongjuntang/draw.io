@@ -97,7 +97,7 @@
         <mxCell id="T4oT3lUceSFMtOt-YA8v-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T4oT3lUceSFMtOt-YA8v-28" target="T4oT3lUceSFMtOt-YA8v-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T4oT3lUceSFMtOt-YA8v-28" value="将数据更新到应用级数据中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="T4oT3lUceSFMtOt-YA8v-28" value="将数据更新到应用级数据中和数据库中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="970" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T4oT3lUceSFMtOt-YA8v-30" value="是" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
