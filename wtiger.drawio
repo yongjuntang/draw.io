@@ -28,10 +28,10 @@
         <mxCell id="T4oT3lUceSFMtOt-YA8v-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T4oT3lUceSFMtOt-YA8v-1" target="T4oT3lUceSFMtOt-YA8v-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T4oT3lUceSFMtOt-YA8v-1" value="判断是否有特定的请求级数据" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="T4oT3lUceSFMtOt-YA8v-1" value="&lt;font face=&quot;Menlo, Monaco, Courier New, monospace&quot; color=&quot;#6a9955&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;从请求级缓存中获取数据&lt;/span&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="360" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="T4oT3lUceSFMtOt-YA8v-6" value="否" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="T4oT3lUceSFMtOt-YA8v-6" value="没有" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="400" y="380" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T4oT3lUceSFMtOt-YA8v-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T4oT3lUceSFMtOt-YA8v-7" target="T4oT3lUceSFMtOt-YA8v-8">
@@ -40,19 +40,38 @@
         <mxCell id="T4oT3lUceSFMtOt-YA8v-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T4oT3lUceSFMtOt-YA8v-7" target="T4oT3lUceSFMtOt-YA8v-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T4oT3lUceSFMtOt-YA8v-7" value="判断是否有应用级数据" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="T4oT3lUceSFMtOt-YA8v-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="360.0029411764705" as="sourcePoint" />
+            <mxPoint x="340" y="357.65" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="360" />
+              <mxPoint x="570" y="340" />
+              <mxPoint x="340" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T4oT3lUceSFMtOt-YA8v-7" value="从应用级&lt;div&gt;缓存中获取数据&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="360" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="T4oT3lUceSFMtOt-YA8v-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T4oT3lUceSFMtOt-YA8v-8" target="T4oT3lUceSFMtOt-YA8v-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="T4oT3lUceSFMtOt-YA8v-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T4oT3lUceSFMtOt-YA8v-8" target="T4oT3lUceSFMtOt-YA8v-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="340" />
+              <mxPoint x="575" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="T4oT3lUceSFMtOt-YA8v-8" value="读取数据库" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="765" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T4oT3lUceSFMtOt-YA8v-10" value="否" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="T4oT3lUceSFMtOt-YA8v-10" value="没有" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="660" y="380" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T4oT3lUceSFMtOt-YA8v-11" value="填充数据到应用级数据库" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="T4oT3lUceSFMtOt-YA8v-11" value="填充数据到应用级缓存中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="965" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T4oT3lUceSFMtOt-YA8v-13" value="将应用级数据填充到请求级数据中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -105,6 +124,12 @@
         </mxCell>
         <mxCell id="T4oT3lUceSFMtOt-YA8v-31" value="释放锁" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T4oT3lUceSFMtOt-YA8v-34" value="填充数据" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T4oT3lUceSFMtOt-YA8v-36" value="填充数据" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="320" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
